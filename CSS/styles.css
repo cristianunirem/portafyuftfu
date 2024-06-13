@@ -1,0 +1,111 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.fcabecera {
+    background-color: #d8ffcc;
+}
+
+.fcab1 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+.style1 {
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.style2 {
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.fcab2 {
+    font-weight: bold;
+}
+
+.ffondo {
+    Min-Height:300px;
+	Background: URL('../img/Luna.jpg') No-Repeat 0 -290px;
+}
+
+.saludo1 {
+    font-weight: bold;
+    color: #000;
+}
+
+.saludo2 {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.cont1 {
+    font-weight: bold;
+    color: #000;
+    float: left;
+}
+
+.contp {
+    font-weight: bold;
+    color: #000;
+}
+
+.fpract1 {
+    background-color: #fff;
+}
+
+.style3 {
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    box-shadow: inset 0 0 0 0 #0059ff;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: #000;
+    font-weight: bold;
+    &:hover {
+        color: white;
+        box-shadow: inset 225px 0 0 0 #0059ff;
+    }
+}
+
+.fcard {
+    height: 9rem;
+    width: 9rem;
+}
+
+.fcard2 {
+    height: 8rem;
+    width: 8rem;
+}
+
+.ftext2 { 
+    Font-Weight:Bold;
+    color: #000000;
+    align-items: center;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    text-align: center;
+    padding: 2rem;
+}
+
+.my {
+    width: auto;
+    height: 25rem;
+    border-radius: 10%;
+}
